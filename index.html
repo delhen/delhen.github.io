@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Icons-->
     <link rel="apple-touch-icon" sizes="57x57" href="./src/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="./src/favicon/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="./src/favicon/apple-icon-72x72.png">
@@ -20,16 +21,163 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="/src/style/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./src/style/style.css">
+    <link rel="stylesheet" href="./src/style/responsive.css">
     <title>Delhen</title>
 </head>
 <body>
-    <div class="container">
-        <div>
-            <img src="./src/logo.png" alt="Logo" width="200px">
-            <p class="big-header">DELHEN PORTFOLIO</p>
-            <p class="desc">Work in progress...</p>
+    <header>
+        <nav>
+            <img src="./src/logo.png" alt="Logo" width="40px">
+        </nav>
+    </header>
+    <main>
+        <article>
+            <section>
+                <div>
+                    <img src="./src/images/FirstImg.png" alt="First Image" class="vector-img">
+                </div>
+                <div class="text-content">
+                    <p class="header-article">Welcome to my website!</p>
+                    <p class="caption-article">In this website, you will see several informations that related with Delian Hendardi.</p>
+                </div>
+            </section>
+        </article>
+
+        <article>
+            <section>
+                <div class="text-content">
+                    <p class="header-article">Skills for brighter future</p>
+                    <p class="caption-article">I have several skills that, I'm sure, I can give any impact for future development. I divide my skill into main skills and side skills.</p>
+                </div>
+                <div>
+                    <img src="./src/images/SecondImg.png" alt="Second Image" class="vector-img">
+                </div>
+            </section><br>
+            
+            <p class="label-list">Main Skills</p>
+            <section class="card-list">
+                <div>
+                    <i class="material-icons">language</i>
+                    <p class="card-header">Web Development</p>
+                    <p class="card-caption">Familiar with: Front-end, Back-end, Webpack, PWA, Laravel, Bootstrap, Materialize, Vue, Sass</p>
+                </div>
+                <div>
+                    <i class="material-icons">translate</i>
+                    <p class="card-header">Natural Language Processing</p>
+                    <p class="card-caption">Familiar with: Python, Tensorflow, Sentiment Analysis, Text Classification</p>
+                </div>
+                
+            </section><br>
+
+            <p class="label-list">Side Skills</p>
+            <section class="card-list">
+                <div>
+                    <i class="material-icons">tv</i>
+                    <p class="card-header">Web Design</p>
+                    <p class="card-caption">Familiar with: UI/UX, Adobe XD</p>
+                </div>
+                <div>
+                    <i class="material-icons">color_lens</i>
+                    <p class="card-header">Graphic Design</p>
+                    <p class="card-caption">Familiar with: Adobe Photoshop, Adobe Illustrator, Geometric Design, Vector Art Design</p>
+                </div>
+            </section><br>
+
+            <p class="label-list">Non-technical Skills</p>
+            <section class="mini-card-list hide-small">
+                <div>
+                    <i class="material-icons small">group</i>
+                    <p class="label-minicard">Teamwork</p>
+                </div>
+                <div>
+                    <i class="material-icons small">thumbs_up_down</i>
+                    <p class="label-minicard">Decision-Making</p>
+                </div>
+                <div>
+                    <i class="material-icons small">extension</i>
+                    <p class="label-minicard">Analytical</p>
+                </div>
+                <div>
+                    <i class="material-icons small">how_to_reg</i>
+                    <p class="label-minicard">Responsible</p>
+                </div>
+                <div>
+                    <i class="material-icons small">face</i>
+                    <p class="label-minicard">Leadership</p>
+                </div>
+            </section>
+            <section class="mini-card-list">
+                <p>Teamwork, Decision-Making, Analytical, Responsible, Leadership</p>
+            </section>
+        </article>
+        
+        <article>
+            <section>
+                <div>
+                    <img src="./src/images/ThirdImg.png" alt="Third Image" class="vector-img">
+                </div>
+                <div class="text-content">
+                    <p class="header-article">Experience is a key</p>
+                    <p class="caption-article">I can work both as an individual and a team. I have passion in accomplishing my responsibility. These are my past experience when I'm working as a team.</p>
+                </div>
+            </section><br><br>
+            <section class="card-list responsive">
+                <div class="left-align">
+                    <p class="card-header">2017<br>Chief of Design, Documentation, and Decoration Division DSPARTED 2017</p>
+                    <p class="card-caption">In this event, I took responsibility for planning a theme of the event and designing something that related to the event such as logo, banner, Instagram feed, etc. I was also scheduling photographer for each event.</p><br>
+                    <p class="card-caption">DSPARTED is an event that be held for sport, art, and education competition. You can see <a href="https://www.instagram.com/dsparted/" target="_blank" class="link">here</a>.</p>
+                </div>
+                <div class="left-align">
+                    <p class="card-header">2018<br>Chief of Design and Decoration Division EKSAK DOETA 2019</p>
+                    <p class="card-caption">In this event, I took responsibility for planning a theme of the event and designing something that related to the event such as logo, banner, Instagram feed, etc.</p><br>
+                    <p class="card-caption">EKSAK DOETA is an event from alumnus of SMAN 2 Tangerang to educate their junior about university's life. You can see EKSAK DOETA <a href="https://www.instagram.com/eksakdoeta" target="_blank" class="link">here</a>.</p>
+                </div>
+                <div class="left-align">
+                    <p class="card-header">2020 - now<br>Graphic Designer at Mengerti.id</p>
+                    <p class="card-caption">In this work, I took responsibility for designing infographic (Instagram) and header photo (Twitter) for content-making..</p><br>
+                    <p class="card-caption">Mengerti is an education account that discuss about something related to social and humaniora. You can see in <a href="https://www.instagram.com/mengerti_id/" target="_blank" class="link">Instagram</a> and <a href="https://twitter.com/mengerti_id" target="_blank" class="link">Twitter</a>.</p>
+                </div>
+            </section><br>
+        </article>
+
+        <article>
+            <section>
+                <div class="text-content">
+                    <p class="header-article">Be better with portfolio</p>
+                    <p class="caption-article">There are some of my portfolio that related with my skill. Majority of my portfolio is my own mini project that is used for develop my skill.</p>
+                </div>
+                <div>
+                    <img src="./src/images/FourthImg.png" alt="Third Image" class="vector-img">
+                </div>
+            </section><br><br>
+            <section class="card-list-pic">
+                <div>
+                    <img src="./src/images/proj1.png" alt="Ourmuzic" style="width: 100%;">
+                    <div class="card-container">
+                        <p class="cardpic-header">Ourmuzic with Webpack and Node.js</p>
+                        <p class="cardpic-caption">Ourmuzic provides a music shop and music news. News are provided from RapidAPI using Fetch. Compatible for all devices.</p><br>
+                    </div>
+                </div>
+                <div>
+                    <img src="./src/images/proj2.png" alt="The Cafe" style="width: 100%;">
+                    <div class="card-container">
+                        <p class="cardpic-header">CRUD with PHP for Coofeez</p>
+                        <p class="cardpic-caption">This is a CRUD App for Coofeez. CRUD in this case is for stock updating. It is only compatible for Desktop interface. Do not try to insert a real data here.</p><br>
+                        <p class="cardpic-caption"><a href="http://coofeez.herokuapp.com/" class="link" target="_blank">Try This</a></p>
+                    </div>
+                </div>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <p class="header-article">Find out more about me</p>
+        <div class="img-container">
+            <a href="https://www.linkedin.com/in/delian-hendardi/" target="_blank"><img src="./src/images/iconmonstr-linkedin-3-240.png" alt="LinkedIn"></a>
+            <a href="https://github.com/delhen" target="_blank"><img src="./src/images/iconmonstr-github-1-240.png" alt="Github"></a>
+            <a href="https://www.instagram.com/delian_h/" target="_blank"><img src="./src/images/iconmonstr-instagram-11-240.png" alt="Instagram"></a>
         </div>
-    </div>
+    </footer>
 </body>
 </html>

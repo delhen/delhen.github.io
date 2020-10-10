@@ -1,0 +1,249 @@
+@media screen and (min-width: 601px) and (max-width: 992px){
+    article{
+        padding: 50px;
+        margin-bottom: 20px;
+    }
+    
+    article:nth-child(even){
+        background-color: #1A1A2E;
+    }
+    
+    article > section:first-child{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 10px;
+        align-items: center;
+    }
+    
+    article:nth-child(even) > section:first-child{
+        background-color: #1A1A2E;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .header-article{
+        font-size: 2em;
+    }
+    
+    .caption-article{
+        font-size: 1.75em;
+    }
+
+    .text-content{
+        text-align: center !important;
+    }
+
+    .vector-img{
+        width: 240px;
+    }
+
+    /** Card List without Pic */
+    .card-list{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-gap: 10px;
+    }
+
+    .card-list > div{
+        padding: 30px;
+        background-color: #E94560;
+        max-height: 500px;
+        text-align: center;
+    }
+
+    .card-header{
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.4em;
+        font-weight: bold;
+    }
+
+    .card-caption{
+        font-size: 1.2em;
+    }
+
+    /** Mini Card List without Pic */
+    .mini-card-list{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+    }
+
+    .mini-card-list > div{
+        padding: 10px;
+        background-color: #E94560;
+        display: flex;
+        align-items: center;
+    }
+
+    /** Card List with Pic */
+    .card-list-pic{
+        grid-template-columns: 100%;
+    }
+
+    .card-list-pic > div{
+        background-color: #E94560;
+        max-height: fit-content;
+    }
+
+    .cardpic-header{
+        font-size: 1.3em;
+    }
+
+    .card-container{
+        padding: 16px;
+    }
+
+    .cardpic-caption{
+        font-size: 1.2em;
+    }
+
+    /** Misc */
+
+    .material-icons{
+        font-size: 100px;
+    }
+
+    .material-icons.small, .label-minicard{
+        font-size: 1em;
+    }
+
+    .label-list{
+        font-size: 1.5em;
+    }
+
+    .responsive{
+        grid-template-columns: 100%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    article{
+        padding: 30px;
+        margin-bottom: 10px;
+    }
+    
+    article:nth-child(even){
+        background-color: #1A1A2E;
+    }
+    
+    article > section:first-child{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 10px;
+        align-items: center;
+    }
+    
+    article:nth-child(even) > section:first-child{
+        background-color: #1A1A2E;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .header-article{
+        font-size: 1.7em;
+    }
+    
+    .caption-article{
+        font-size: 1.35em;
+    }
+
+    .text-content{
+        text-align: center !important;
+    }
+
+    .vector-img{
+        width: 180px;
+    }
+
+    /** Card List without Pic */
+    .card-list{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 10px;
+    }
+
+    .card-list > div{
+        padding: 20px;
+        background-color: #E94560;
+        max-height: fit-content;
+        text-align: center;
+    }
+
+    .card-header{
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+    .card-caption{
+        font-size: 1em;
+    }
+
+    /** Mini Card List without Pic */
+    .mini-card-list{
+        display: grid;
+        grid-template-columns: 100%;
+        background-color: #E94560;
+        padding: 18px;
+    }
+
+    /** Card List with Pic */
+    .card-list-pic{
+        grid-template-columns: 100%;
+    }
+
+    .card-list-pic > div{
+        background-color: #E94560;
+        max-height: fit-content;
+    }
+
+    .cardpic-header{
+        font-size: 1.2em;
+    }
+
+    .card-container{
+        padding: 16px;
+    }
+
+    .cardpic-caption{
+        font-size: 1em;
+    }
+
+    /** Footer */
+    footer{
+        text-align: center;
+        padding: 20px;
+        margin-bottom: 50px;
+    }
+
+    .img-container{
+        margin-top: 20px;
+    }
+
+    .img-container img{
+        width: 40px;
+        margin: 0 20px;
+    }
+
+    /** Misc */
+
+    .material-icons{
+        font-size: 80px;
+    }
+
+    .material-icons.small, .label-minicard{
+        font-size: 1em;
+    }
+
+    .label-list{
+        font-size: 1.5em;
+    }
+
+    .responsive{
+        grid-template-columns: 100%;
+    }
+
+    .hide-small{
+        display: none;
+    }
+}
