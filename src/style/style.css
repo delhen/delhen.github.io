@@ -81,6 +81,11 @@ nav img, article img{
     font-weight: bold;
 }
 
+.hide-non-small{
+    display: none;
+}
+
+
 /** Card List without Pic */
 .card-list{
     display: grid;
@@ -117,6 +122,10 @@ nav img, article img{
     background-color: #E94560;
     display: flex;
     align-items: center;
+}
+
+.hide-non-small{
+    display: none;
 }
 
 /** Card List with Pic */

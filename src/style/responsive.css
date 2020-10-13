@@ -75,6 +75,10 @@
         align-items: center;
     }
 
+    .hide-non-small{
+        display: none;
+    }
+
     /** Card List with Pic */
     .card-list-pic{
         grid-template-columns: 100%;
